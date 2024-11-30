@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #3b5998;
+    
+}
+.box
+{
+    display: flex;
+    
+    justify-content: center;
+}
+.Login
+{
+    width: 300px;
+    min-height: 300px;
+    border: 2px solid rgb(13, 16, 17);
+    border-radius: 10px;
+    text-align: center;
+    margin: 80px 0 0 40px;
+    padding: 10px;
+    background-color: white;
+    flex: left;
+}
+.Signup
+{
+    flex: left;
+    width: 300px;
+    min-height: 300px;
+    border: 2px solid rgb(13, 16, 17);
+    border-radius: 10px;
+    text-align: center;
+    margin: 80px 0 0 40px;
+    padding: 10px;
+    background-color: white;
+}
+.email
+{
+    width: 200px;
+    height: 30px;
+    
+}
+.password
+{
+    width: 200px;
+    height: 30px;
+   
+}
+.frtpass
+{
+    text-decoration: none;
+}
+.sgnup
+{
+    text-decoration: none;
+}
+.lgnbtn
+{
+    background-color: rgba(36, 36, 196, 0.945);
+    width: 250px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+}
+.style-hr
+{
+    border: none;
+    height: 2px;
+    background-color: #333;
+    width: 80%;
+    margin: 20px auto;
+}
+.lgnface
+{
+    background-color: #3b5998;
+    width: 250px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+}
+.lgngoogle
+{
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}

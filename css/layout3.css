@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container
+{
+    width: 80%;
+    min-height: 200px;
+    margin: auto;
+    border: 2px solid black;
+}
+.container .header
+{
+    width: 98%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+.container .nav
+{
+    width: 98%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+.container .section
+{
+    width: 59%;
+    min-height: 150px;
+    float: left;
+    margin: 10px;
+    background-color: rgb(214, 147, 23);
+    border: 1px solid black;
+}
+.aside{
+    width: 38%;
+    height: 310px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: palevioletred;
+    border: 1px solid  black;
+}
+.article{
+    width: 59%;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(221, 106, 13);
+    border: 1px solid black;
+}
+.container .footer
+{
+    width: 98%;
+    height: 80px;
+    margin: auto;
+    margin-top: 330px;
+    margin-bottom: 10px;
+    background-color: gray;
+    border: 1px solid black;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display:block;
+}
